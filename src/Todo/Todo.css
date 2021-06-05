@@ -1,0 +1,42 @@
+* {
+    font-family: sans-serif;
+}
+.li-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 45%;
+    margin: 0 auto;
+}
+
+.input {
+    margin-right: 1rem;
+}
+
+.section {
+    text-align: center;
+}
+
+.done {
+    text-decoration: line-through ;
+}
+
+.btn {
+    padding: 3px 8px;
+    background: crimson;
+    outline: none;
+    border-radius: 5px;
+    border: 0px solid;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: inherit;
+    /* opacity: 0.8; */
+    border: 1px solid;
+    transition: .3s ease-in-out;
+}
